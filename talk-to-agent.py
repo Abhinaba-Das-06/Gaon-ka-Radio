@@ -21,7 +21,7 @@ async def main():
         agent_variables={"call_summary": "<call_summary>", "reported_news": "<reported_news>", "user_name": "<user_name>"},
     )
     agent = AsyncSamvaadAgent(
-        api_key=SecretStr("<your-api-key>"),
+        api_key=SecretStr("sk_k4j80dhq_bCXwCOxj1YBANhl32YG5XNZa"),
         config=config,
         audio_interface=AsyncDefaultAudioInterface(input_sample_rate=16000),
     )
